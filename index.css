@@ -63,17 +63,29 @@ h6{font-size: 16px;}
 .intro-wrapper{
     background-color: var(--secondaryColor);
     border:1px solid var(--borderColor);
+
     box-shadow: 47px 10px 71px 0px rgba(0,0,0,0.75);
     -webkit-box-shadow: 47px 10px 71px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 47px 10px 71px 0px rgba(0,0,0,0.75);
+
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        'nav-wrapper nav-wrapper'
+        'left-column right-column'
+    ;
 }
+
 .nav-wrapper{
-    border:1px dashed lightcoral;
-}
-.right-column{
+    grid-area: nav-wrapper;
     border:1px dashed lightcoral;
 }
 .left-column{
+    grid-area:left-column;
+    border:1px dashed lightcoral;
+}
+.right-column{
+    grid-area:right-column;
     border:1px dashed lightcoral;
 }
 
