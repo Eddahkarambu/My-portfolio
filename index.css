@@ -53,11 +53,28 @@ h6{font-size: 16px;}
     margin: 0 auto;
 }
 
-.greeting wrapper{
+.greeting-wrapper{
     display:grid;
-    justify-content: center;
+    text-align: center;
+    align-content: center;
     border:2px dashed lightcoral;
-    in-height:20em;
+    min-height:10em;
+}
+.intro-wrapper{
+    background-color: var(--secondaryColor);
+    border:1px solid var(--borderColor);
+    box-shadow: 47px 10px 71px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 47px 10px 71px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 47px 10px 71px 0px rgba(0,0,0,0.75);
+}
+.nav-wrapper{
+    border:1px dashed lightcoral;
+}
+.right-column{
+    border:1px dashed lightcoral;
+}
+.left-column{
+    border:1px dashed lightcoral;
 }
 
 @media screen and (max-width:1200px) {
