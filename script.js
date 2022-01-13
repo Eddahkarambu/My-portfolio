@@ -1,1 +1,7 @@
 console.log('Its working')
+
+let themeDots = document.getElementsByClassName('theme-dot')
+
+for (var i=0; themeDots.length>i; i++){
+    
+} 
