@@ -91,6 +91,9 @@ h6{font-size: 16px;}
     align-items:center;
     background-color: var(--mainColor);
 }
+#navigation a{
+    color:var(--mainText);
+}
 
 #navigation{
     margin:0;
