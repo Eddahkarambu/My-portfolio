@@ -1,0 +1,14 @@
+{
+  "Version":"2008-10-17",
+  "Statement":[
+    {
+      "Sid":"AllowPublicRead",
+      "Effect":"Allow",
+      "Principal": {
+          "AWS":"*"
+      },
+      "Action":["s3:GetObject","s3:GetObjectVersion"],
+      "Resource":["arn:aws:s3:::YOUR-EXAMPLE-BUCKET/*"]
+    }
+  ]
+}
