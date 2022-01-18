@@ -29,7 +29,7 @@ Incase of any questions or facing any difficulties you can contact Eddah Karambu
 gikundaeddah@gmail.com
 
 ## Website url
-https://eddah-demo.s3.amazonaws.com/index.html
+https://distracted-williams-4d10da.netlify.app/
 
 
 
