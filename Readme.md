@@ -12,7 +12,11 @@ It provides insight into my personality and work ethic.
 
 ## setup/installation Requirements
 git clone this project at https://github.com/Eddahkarambu/My-portfolio
+
+
 cd into Portfolio
+
+
 Then open index.html with the browser of your choice.
 
 
