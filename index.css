@@ -377,6 +377,16 @@ h6{font-size: 16px;}
         
     }   
 }
+.paragraph{
+    display:none;
+}
+
+.paragraph1{
+    display:none;
+}
+.paragraph2{
+    display:none;
+}
 
 @media screen and (max-width:800px) {
     .intro-wrapper{
