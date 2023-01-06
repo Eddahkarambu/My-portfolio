@@ -257,10 +257,18 @@ h6{font-size: 16px;}
 }
 
 #skills{
-    display: flex;
+    /* display: flex; */
+    margin-left: 30px;
     justify-content: space-evenly;
     background-color: var(--previewShadow);
+}
 
+.allskills{
+   margin-left: 60px;
+}
+.header{
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .social-links{
